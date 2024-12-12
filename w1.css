@@ -1,0 +1,35 @@
+.ul1{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.body{
+    background-color: bisque;
+}
+.li1{
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.li2{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.li3{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.li4{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.li5{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}

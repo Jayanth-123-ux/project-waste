@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General Styles */
+        #reviews {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .div07 h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .div07 small {
+            font-size: 22px;
+        }
+
+        .carousel-inner {
+            display: flex;
+            justify-content: center;
+        }
+
+        .carousel-item {
+            display: flex;
+            justify-content: center;
+        }
+
+        .carousel-item ul {
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        .carousel-item li {
+            display: inline-block;
+            width: 300px;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .carousel-item .div11 {
+            margin-bottom: 20px;
+        }
+
+        .carousel-item .div10 img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+
+        .carousel-item .div08 h3 {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .carousel-item .div09 p {
+            font-size: 16px;
+        }
+
+        .carousel-item .div12 i {
+            color: gold;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            filter: invert(1);
+        }
+
+        /* Media Queries for Responsive Design */
+
+        /* For screens smaller than 1024px (tablets) */
+        @media screen and (max-width: 1024px) {
+            .div07 h3 {
+                font-size: 1.8em;
+            }
+
+            .div07 small {
+                font-size: 18px;
+            }
+
+            .carousel-item li {
+                width: 250px;
+                /* Adjusting the size of each review item */
+                margin: 15px;
+            }
+
+            .carousel-inner {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* For screens smaller than 768px (larger phones and small tablets) */
+        @media screen and (max-width: 768px) {
+            .div07 h3 {
+                font-size: 1.6em;
+            }
+
+            .div07 small {
+                font-size: 16px;
+            }
+
+            .carousel-item li {
+                width: 200px;
+                /* Further reducing size for better fit */
+                margin: 10px;
+            }
+
+            .carousel-item .div10 img {
+                width: 50px;
+                height: 50px;
+                /* Smaller profile images */
+            }
+
+            .carousel-item .div08 h3 {
+                font-size: 1.1em;
+            }
+
+            .carousel-item .div09 p {
+                font-size: 14px;
+                /* Smaller text */
+            }
+        }
+
+        /* For screens smaller than 480px (mobile phones) */
+        @media screen and (max-width: 480px) {
+            .div07 h3 {
+                font-size: 1.4em;
+            }
+
+            .div07 small {
+                font-size: 14px;
+            }
+
+            .carousel-item li {
+                width: 100%;
+                /* Full-width reviews on small screens */
+                margin: 10px 0;
+            }
+
+            .carousel-item .div10 img {
+                width: 40px;
+                height: 40px;
+                /* Even smaller profile image */
+            }
+
+            .carousel-item .div08 h3 {
+                font-size: 1em;
+            }
+
+            .carousel-item .div09 p {
+                font-size: 12px;
+                /* Adjust text size for readability */
+            }
+
+            .carousel-item .div12 i {
+                font-size: 18px;
+                /* Smaller star icons */
+            }
+        }
+
+        /* For screens smaller than 360px (extra small mobile screens) */
+        @media screen and (max-width: 360px) {
+            .carousel-item li {
+                width: 100%;
+                /* Full width on very small screens */
+            }
+
+            .carousel-item .div09 p {
+                font-size: 10px;
+                /* Even smaller text for smaller devices */
+            }
+
+            .carousel-item .div12 i {
+                font-size: 16px;
+                /* Smallest star icons */
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <header class="header1">
+    </header>
+    <div class="div1">
+        <div class="div2">Known</div>
+        <ul class="ul1">
+            <li class="listitem" style="width: 55px; height: 55px; background-color: #29ca8e; color: white; "><a
+                    href="#" class="ha1">Home</a></li>
+            <li class="listitem" style="width: 55px; height: 55px; "><a href="#maindiv1" class="ha1">About</a></li>
+            <li class="listitem" style="width: 85px; height: 55px; "><a href="#teachers" class="ha1">OurTeachers</a>
+            </li>
+            <li class="listitem" style="width: 55px; height: 55px; "><a href="#popular" class="ha1">Courses</a></li>
+            <li class="listitem" style="width: 55px; height: 55px; "><a href="#reviews" class="ha1">Review</a></li>
+            <li class="listitem" style="width: 55px; height: 55px;"><a href="#div13" class="ha1">Contact</a></li>
+        </ul>
+        <div class="div3">
+            <i class="fa-brands fa-whatsapp"
+                style=" background-color: #29ca8e; color: white; font-size: xx-large; border-radius: 50%;"></i><span><a
+                    href="#" class="ha1">+65 2244 1100</a>
+            </span>
+        </div>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+            <ul class="ul1">
+                <li class="listitem" style="width: 55px; height: 55px; background-color: #29ca8e; color: white; "><a
+                        href="#" class="ha1">Home</a></li>
+                <li class="listitem" style="width: 55px; height: 55px; "><a href="#maindiv1" class="ha1">About</a></li>
+                <li class="listitem" style="width: 85px; height: 55px; "><a href="#teachers" class="ha1">OurTeachers</a>
+                </li>
+                <li class="listitem" style="width: 55px; height: 55px; "><a href="#popular" class="ha1">Courses</a></li>
+                <li class="listitem" style="width: 55px; height: 55px; "><a href="#reviews" class="ha1">Review</a></li>
+                <li class="listitem" style="width: 55px; height: 55px;"><a href="#div13" class="ha1">Contact</a></li>
+            </ul>
+            <div class="div3">
+                <i class="fa-brands fa-whatsapp"
+                    style=" background-color: #29ca8e; color: white; font-size: xx-large; border-radius: 50%;"></i><span><a
+                        href="#" class="ha1">+65 2244 1100</a>
+                </span>
+            </div>
+
+        </div>
+    </div>    
+</body>

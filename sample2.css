@@ -1,0 +1,115 @@
+/* General Navbar Styles
+.header1 {
+    /* Add any header-specific styles here */
+/* } */ */
+
+.ul1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.listitem {
+    padding: 15px 20px;
+}
+
+.ha1 {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+/* WhatsApp Icon */
+.div3 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.div3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hamburger Menu - Hidden by Default */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+/* Mobile Navigation Menu */
+.hamburger-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 50px 20px;
+    z-index: 999;
+}
+
+/* Show the menu when toggled */
+.hamburger-menu.show {
+    display: block;
+}
+
+/* Style for the hamburger menu links */
+.hamburger-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hamburger-menu li {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.hamburger-menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    /* Hide the desktop navbar on small screens */
+    .ul1 {
+        display: none;
+    }
+
+    /* Show the hamburger icon on small screens */
+    .hamburger {
+        display: block;
+        color: #29ca8e;
+    }
+
+    /* Mobile navbar links should be displayed in a column */
+    .hamburger-menu li {
+        width: 100%;
+    }
+
+    /* WhatsApp icon stays visible */
+    .div3 {
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    /* Display the desktop navbar on larger screens */
+    .ul1 {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* Hide the mobile navbar */
+    .hamburger-menu {
+        display: none;
+    }
+}

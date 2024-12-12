@@ -1,0 +1,51 @@
+/* .hamburger { */
+display: block;
+margin-top: 5px;
+}
+
+/* .div2 { */
+font-size: 25px;
+letter-spacing: 3px;
+/* margin-right: 700px; */
+}
+/* .navitems{ */
+display: none;
+border: 2px solid red;
+/* font-size: 100px; */
+}
+/* .listitem{
+padding: 45px 0px;
+border-bottom: 0.2px solid green;
+width: 100%;
+text-align: center;
+font-size: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+} */
+/* .div3{ */
+display: none;
+}
+/* body .div1 .hamburger:hover .ul1 .listitem { */
+margin-top: 20px;
+display: block;
+/* position: absolute; */
+/* z-index: 10; */
+top: 100%;
+left: -40%;
+width: 500px;
+display: flex;
+flex-direction: column;
+background-color: white;
+}
+/* .listitem{ */
+display: block;
+position: absolute;
+z-index: 10;
+top: 100%;
+left: -40%;
+width: 500px;
+display: flex;
+flex-direction: column;
+background-color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sample2.css">
+</head>
+<body>
+    <header class="header1">
+    </header>
+    <div class="div1">
+        <div class="div2">Known</div>
+        <ul class="ul1">
+            <li class="listitem" style="width: 55px; height: 55px; background-color: #29ca8e; color: white; "><a href="#" class="ha1">Home</a></li>
+            <li class="listitem" style="width: 55px; height: 55px; "><a href="#maindiv1"  class="ha1">About</a></li>
+            <li class="listitem" style="width: 85px; height: 55px; "><a href="#teachers" class="ha1">OurTeachers</a></li>
+            <li class="listitem" style="width: 55px; height: 55px; "><a href="#popular" class="ha1">Courses</a></li>
+            <li class="listitem" style="width: 55px; height: 55px; "><a href="#reviews" class="ha1">Review</a></li>
+            <li class="listitem" style="width: 55px; height: 55px;"><a href="#div13" class="ha1">Contact</a></li>
+        </ul>
+        
+        <div class="div3">
+            <i class="fa-brands fa-whatsapp"
+                style=" background-color: #29ca8e; color: white; font-size: xx-large; border-radius: 50%;"></i><span><a href="#" class="ha1">+65 2244 1100</a>
+            </span>
+        </div>
+        
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+        <!-- Hidden navigation for smaller screens -->
+        <div class="hamburger-menu">
+            <ul class="ul1">
+                <li class="listitem" style="width: 55px; height: 55px; background-color: #29ca8e; color: white; "><a href="#" class="ha1">Home</a></li>
+                <li class="listitem" style="width: 55px; height: 55px; "><a href="#maindiv1"  class="ha1">About</a></li>
+                <li class="listitem" style="width: 85px; height: 55px; "><a href="#teachers" class="ha1">OurTeachers</a></li>
+                <li class="listitem" style="width: 55px; height: 55px; "><a href="#popular" class="ha1">Courses</a></li>
+                <li class="listitem" style="width: 55px; height: 55px; "><a href="#reviews" class="ha1">Review</a></li>
+                <li class="listitem" style="width: 55px; height: 55px;"><a href="#div13" class="ha1">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.hamburger-menu');
+            menu.classList.toggle('show');
+        }
+    </script>
+    
+</body>
+</html>

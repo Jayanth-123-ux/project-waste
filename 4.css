@@ -1,0 +1,115 @@
+.flip{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.div1{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    /* margin-right: 300px; */
+}
+.div3{
+    display: flex;
+    font-size: 30px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    border: 2px solid black;
+    margin-right: 100px;
+}
+.ul1{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-left: 200px;
+    border: 2px solid red;
+}
+.ul1 li a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* margin-left: 100px; */
+}
+.div4{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-top: 220px;
+    color: white;
+}
+.div5{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 30px;
+    line-height: 20px;
+    color: white;
+}
+.div6{
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+.div6 a{
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    /* background-color: gray; */
+}
+header{
+    background-image: url(../../Desktop/css/neom-eOWabmCNEdg-unsplash.jpg);
+    height: 700px;
+    width: 1247px;
+    background-size: cover;
+}
+.ul2{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+}
+.ul2 li{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+    padding: 20px 20px;
+}
+.h1{
+    margin-left: 500px;
+}
+.div7{
+    display: flex;
+    justify-content: space-around;
+}
+.ul3{
+    list-style-type: none;
+    line-height: 28px;
+    margin-top: 50px;
+    color: white;
+}
+.footer{
+    background-color: blueviolet;
+    height: 400px;
+}
+.div8{
+    color: white;
+    margin-left: 440px;
+    margin-top: 80px;
+    font-size: xx-large;
+
+}
